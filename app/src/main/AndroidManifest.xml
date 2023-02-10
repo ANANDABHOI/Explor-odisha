@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Anrt"
+        tools:targetApi="31">
+        <activity
+            android:name=".balasore"
+            android:exported="false" />
+        <activity
+            android:name=".khordha"
+            android:exported="false" />
+        <activity
+            android:name=".Balangir"
+            android:exported="false" />
+        <activity
+            android:name=".sundargarh"
+            android:exported="false" />
+        <activity
+            android:name=".subarnapur"
+            android:exported="false" />
+        <activity
+            android:name=".sambalpur"
+            android:exported="false" />
+        <activity
+            android:name=".rayagada"
+            android:exported="false" />
+        <activity
+            android:name=".puri"
+            android:exported="false" />
+        <activity
+            android:name=".nuapada"
+            android:exported="false" />
+        <activity
+            android:name=".nayagarh"
+            android:exported="false" />
+        <activity
+            android:name=".nabarangpur"
+            android:exported="false" />
+        <activity
+            android:name=".mayurbhanj"
+            android:exported="false" />
+        <activity
+            android:name=".malkangiri"
+            android:exported="false" />
+        <activity
+            android:name=".koraput"
+            android:exported="false" />
+        <activity
+            android:name=".keonjhur"
+            android:exported="false" />
+        <activity
+            android:name=".kalahandi"
+            android:exported="false" />
+        <activity
+            android:name=".kendrapada"
+            android:exported="false" />
+        <activity
+            android:name=".kandhmal"
+            android:exported="false" />
+        <activity
+            android:name=".jharsugda"
+            android:exported="false" />
+        <activity
+            android:name=".jajpur"
+            android:exported="false" />
+        <activity
+            android:name=".jagatsingpur"
+            android:exported="false" />
+        <activity
+            android:name=".ganjam"
+            android:exported="false" />
+        <activity
+            android:name=".gajpati"
+            android:exported="false" />
+        <activity
+            android:name=".dhenkanal"
+            android:exported="false" />
+        <activity
+            android:name=".deogarh"
+            android:exported="false" />
+        <activity
+            android:name=".cuttack"
+            android:exported="false" />
+        <activity
+            android:name=".boudh"
+            android:exported="false" />
+        <activity
+            android:name=".bhadrak"
+            android:exported="false" />
+        <activity
+            android:name=".bargarh"
+            android:exported="false" />
+        <activity
+            android:name=".Angul"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
